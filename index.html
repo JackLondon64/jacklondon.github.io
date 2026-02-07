@@ -49,6 +49,17 @@
         .project-title {
             font-weight: bold;
         }
+        .project-card {
+            margin-bottom: 30px;
+        }
+
+        .project-card img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -78,36 +89,39 @@
     </div>
 
     <div class="section">
-        <h2>Projects</h2>
+    <h2>Projects</h2>
 
-        <div class="project">
-            <div class="project-title">Fully Autonomous TurtleBot3</div>
-            <p>
-                Built a complete ROS2 autonomy stack including odometry, occupancy
-                grid mapping, particle filter localization, ICP scan matching,
-                and real-time planning.
-            </p>
-        </div>
-
-        <div class="project">
-            <div class="project-title">Distributed UWB Localization System</div>
-            <p>
-                Modernized a distributed network localization system at MIT
-                Lincoln Laboratory, implementing a probabilistic trust filter
-                to improve robustness under degraded sensing conditions.
-            </p>
-        </div>
-
-        <div class="project">
-            <div class="project-title">CornholeBot Mechatronic Launch System</div>
-            <p>
-                Designed and built a four-bar intake and flywheel launching
-                system capable of accurately firing 15 beanbags in under
-                240 seconds.
-            </p>
-        </div>
-
+    <div class="project-card">
+        <img src="turtlebot.jpg" alt="TurtleBot3 project image">
+        <div class="project-title">Fully Autonomous TurtleBot3</div>
+        <p>
+            Built a complete ROS2 autonomy stack including odometry,
+            occupancy grid mapping, particle filter localization,
+            ICP scan matching, and real-time planning.
+        </p>
     </div>
+
+    <div class="project-card">
+        <img src="uwb_localization.jpg" alt="Distributed localization system image">
+        <div class="project-title">Distributed UWB Localization System</div>
+        <p>
+            Modernized a distributed network localization system at MIT
+            Lincoln Laboratory, implementing a probabilistic trust filter
+            to improve robustness under degraded sensing conditions.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <img src="cornholebot.jpg" alt="CornholeBot launching system image">
+        <div class="project-title">CornholeBot Mechatronic Launch System</div>
+        <p>
+            Designed and built a four-bar intake and flywheel launching
+            system capable of accurately firing 15 beanbags in under
+            240 seconds.
+        </p>
+    </div>
+
+</div>
 
     <div class="section">
         <h2>Interests</h2>
